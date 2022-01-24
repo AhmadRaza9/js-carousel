@@ -25,3 +25,12 @@ button {
   border-radius: 3px;
   cursor: pointer;
 }
+
+.controls {
+  display: grid;
+  grid-template-columns: 361px 300px 286px 350px;
+  grid-gap: 14px;
+}
+button.previous {
+  grid-column: 2;
+}
