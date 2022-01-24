@@ -1,0 +1,27 @@
+.carousel-container {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+.carousel-slide {
+  display: flex;
+  height: 375px;
+  transform: translate(0);
+}
+img {
+  width: 100%;
+}
+
+button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+}
